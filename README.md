@@ -33,3 +33,14 @@ From our t-test on all the manufacturing lots together, we can see the sample me
 <img width="799" alt="Screen Shot 2022-12-11 at 21 08 59" src="https://user-images.githubusercontent.com/111800568/206946570-fb14ce53-601c-43c8-9429-8f12fece1e21.png">
 
 When we perform t-tests on the individual lots, we can see that lots 1 and 2 are not statistically different from the population mean with p-values of 1 and 0.6, respectively; lot 3 has a mean that is statistically different from the population mean with a p-value of 0.04.
+
+
+## Study Design: MechaCar vs Competition
+
+The MechaCar can be compared against competition on parameters like cost, city & highway fuel efficiency, horsepower, safety rating, and colour, which are of interest to the consumers.
+
+We will test whether the MechaCar has statistically significant differences in these metrics compared to competing models. The null hypothesis will be that these observables do not vary significantly, and the alternative hypothesis will be that the MechaCar varies significantly in these variables compared to the competition.
+
+Ideally, the consumer would want higher fuel efficiency for city & highway usage, higher horsepower & a better safety rating. The cost of the car needs to be competitive or lower. We will perform one one-tailed t-test to determine if MechaCar has met these required conditions compared to the competition.
+
+In order to run these statistical tests, we would need the cost, fuel efficiency, horsepower, safety rating, and carbon waste output data from MechaCar and competitors.
